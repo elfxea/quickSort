@@ -261,7 +261,7 @@
     var quick = {
         a: null,
         sort: function(arr) {
-            intQueue = setInterval(function(){runQueue()}, 250); // CHANGE 25 TO CHANGE ANIMATION DURATION!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            intQueue = setInterval(function(){runQueue()}, 250); // CHANGE 250 TO CHANGE ANIMATION DURATION!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
             this.a = arr.slice();
             this.qsort(0, this.a.length -1);
             return this.a;
